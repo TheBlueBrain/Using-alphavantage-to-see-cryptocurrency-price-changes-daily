@@ -38,7 +38,7 @@ alpha.crypto.daily('nano', 'eur').then(data => {
 	let c = data['Time Series (Digital Currency Daily)'][date]['4a. close (EUR)'];
 	liu2 = a + b + '\n' + c;
 
-
+}).catch(err => { console.error(err);});
 
 setTimeout(g, 10000);
 function g(){
