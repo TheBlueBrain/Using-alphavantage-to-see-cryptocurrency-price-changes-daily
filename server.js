@@ -1,7 +1,6 @@
 fs = require('fs');
 var date= new Date(Date.now() - 1 * 86400000 - new Date().getTimezoneOffset() * 60000).toISOString().split('T')[0]
 var date1= new Date(Date.now() - 0 * 86400000 - new Date().getTimezoneOffset() * 60000).toISOString().split('T')[0]
-var cur=['btc', 'eth','ltc', 'nano'];
 const alpha = require('alphavantage')({ key: '5L9ZNJJNF6NQ94NK'});
 var f = '';
 var liu='';
