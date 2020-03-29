@@ -1,7 +1,7 @@
 fs = require('fs');
 var date= new Date(Date.now() - 1 * 86400000 - new Date().getTimezoneOffset() * 60000).toISOString().split('T')[0]
 var date1= new Date(Date.now() - 0 * 86400000 - new Date().getTimezoneOffset() * 60000).toISOString().split('T')[0]
-const alpha = require('alphavantage')({ key: '5L9ZNJJNF6NQ94NK'});
+const alpha = require('alphavantage')({ key: 'insert key'});
 var f = '';
 var liu='';
 var liu1='';
